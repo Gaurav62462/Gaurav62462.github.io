@@ -33,13 +33,6 @@ let resumeData = {
     'MonthOfPassing':'May',
     'YearOfPassing':'2017',
     'Achievements':'Some Achievements'
-    },
-    {
-    'UniversityName':'Punjabi University',
-    'specialization':'Some specialization',
-    'MonthOfPassing':'Jan',
-    'YearOfPassing':'2018',
-    'Achievements':'Some Achievements'
     }
     ],
     'work':[

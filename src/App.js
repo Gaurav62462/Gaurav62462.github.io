@@ -15,7 +15,7 @@ import About from './component/About';
 import Contactme from './component/Contactme';
 import Header from './component/Header';
 import Resume from './component/Resume';
-import Testimonials from './component/Testimonials';
+//import Testimonials from './component/Testimonials';
 import Portfolio from './component/Portfolio';
 import resumeData  from './resumeData';
 import Slider from './component/slider';
@@ -30,7 +30,6 @@ function App() {
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        <Testimonials resumeData={resumeData}/>
         <Contactme resumeData={resumeData}/>
 
       </div>

@@ -3,7 +3,7 @@ import './../App.css';
 
 const Resume = (props) => {
     let resumeData = props.resumeData;
-    return(
+    return (
         <section id='resume'>
             <div className='row-education'>
                 <div className='three columns header-col'>
@@ -11,8 +11,8 @@ const Resume = (props) => {
                 </div>
                 <div className='nine columns main-col'>
                     {
-                        resumeData.education && resumeData.education.map((item)=>{
-                            return(
+                        resumeData.education && resumeData.education.map((item) => {
+                            return (
                                 <div className='row-item'>
                                     <div className='twelve columns'>
                                         <h3>
@@ -20,11 +20,6 @@ const Resume = (props) => {
                                                 item.UniversityName
                                             }
                                         </h3>
-                                        <p className='info'>
-                                            {
-                                                item.Achievements
-                                            }
-                                        </p>
 
                                     </div>
                                 </div>
@@ -39,24 +34,19 @@ const Resume = (props) => {
                 </div>
                 <div className="nine columns main-col">
                     {
-                        resumeData.work && resumeData.work.map((item) =>{
-                            return(
-                                <div className='row item'>
+                        resumeData.work && resumeData.work.map((item) => {
+                            return (
+
                                 <div className='twelve columns'>
-                                <h3>{item.CompanyName}</h3>
-                                <p className="info">
-                                {item.specialization}
-                                <span>&bull;</span> 
-                                <em className='date'>{item.MonthOfLeaving} {item.YearOfLeaving}</em>
-                                </p>
-                                <p>
-                                    {
-                                        item.Achievements
-                                    }
-                                </p>
+                                    <h3>{item.CompanyName}</h3>
+                                    <p className="info">
+                                        {item.specialization}
+                                        <span>&bull;</span>
+                                        <em className='date'>{item.MonthOfLeaving} {item.YearOfLeaving}</em>
+                                    </p>
                                 </div>
-                                </div>
-                                                                            
+
+
                             )
                         })
                     }
@@ -74,11 +64,9 @@ const Resume = (props) => {
                         <ul className="skills">
                             {
                                 resumeData.skills && resumeData.skills.map((item) => {
-                                    return(
+                                    return (
                                         <li>
-                                            {/* {<span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                                                </span><em>{item.skillname}</em>} */}
-                                                <img width={100} height={100} src={item.skillimg}/>
+                                            <img width={100} height={100} src={item.skillimg} />
                                         </li>
                                     )
                                 })
