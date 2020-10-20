@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Gaurav62462.github.io/static/css/main.9aecea6e.chunk.css",
+    "main.js": "/Gaurav62462.github.io/static/js/main.980a25a6.chunk.js",
+    "main.js.map": "/Gaurav62462.github.io/static/js/main.980a25a6.chunk.js.map",
+    "runtime-main.js": "/Gaurav62462.github.io/static/js/runtime-main.1305c009.js",
+    "runtime-main.js.map": "/Gaurav62462.github.io/static/js/runtime-main.1305c009.js.map",
+    "static/css/2.54b1eb90.chunk.css": "/Gaurav62462.github.io/static/css/2.54b1eb90.chunk.css",
+    "static/js/2.79b15622.chunk.js": "/Gaurav62462.github.io/static/js/2.79b15622.chunk.js",
+    "static/js/2.79b15622.chunk.js.map": "/Gaurav62462.github.io/static/js/2.79b15622.chunk.js.map",
+    "index.html": "/Gaurav62462.github.io/index.html",
+    "precache-manifest.b01e72f0ea1719f96d43f98b869a3af7.js": "/Gaurav62462.github.io/precache-manifest.b01e72f0ea1719f96d43f98b869a3af7.js",
+    "service-worker.js": "/Gaurav62462.github.io/service-worker.js",
+    "static/css/2.54b1eb90.chunk.css.map": "/Gaurav62462.github.io/static/css/2.54b1eb90.chunk.css.map",
+    "static/css/main.9aecea6e.chunk.css.map": "/Gaurav62462.github.io/static/css/main.9aecea6e.chunk.css.map",
+    "static/js/2.79b15622.chunk.js.LICENSE.txt": "/Gaurav62462.github.io/static/js/2.79b15622.chunk.js.LICENSE.txt",
+    "static/media/airflow.jpg": "/Gaurav62462.github.io/static/media/airflow.47e7ce2c.jpg",
+    "static/media/clark.jpg": "/Gaurav62462.github.io/static/media/clark.d4d9b172.jpg",
+    "static/media/database.jpg": "/Gaurav62462.github.io/static/media/database.719fefb4.jpg",
+    "static/media/js.png": "/Gaurav62462.github.io/static/media/js.184a7681.png",
+    "static/media/key.jpg": "/Gaurav62462.github.io/static/media/key.e2a91467.jpg",
+    "static/media/nebuli.jpg": "/Gaurav62462.github.io/static/media/nebuli.bd542b19.jpg",
+    "static/media/slid1.jpg": "/Gaurav62462.github.io/static/media/slid1.afa512a7.jpg",
+    "static/media/slid2.jpg": "/Gaurav62462.github.io/static/media/slid2.ce2674fe.jpg",
+    "static/media/soniclift.jpg": "/Gaurav62462.github.io/static/media/soniclift.52588ba2.jpg",
+    "static/media/App.css": "/Gaurav62462.github.io/static/media/unsplash.6dd9cb77.jpg",
+    "static/media/wordpress.png": "/Gaurav62462.github.io/static/media/wordpress.fa6246e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1305c009.js",
+    "static/css/2.54b1eb90.chunk.css",
+    "static/js/2.79b15622.chunk.js",
+    "static/css/main.9aecea6e.chunk.css",
+    "static/js/main.980a25a6.chunk.js"
+  ]
+}
