@@ -1,8 +1,10 @@
 const express = require("express");
+var nodemailer = require('nodemailer');
 const app = express();
 const mysql = require("mysql");
 const bodyparser = require("body-parser");
 const cors = require("cors");
+const creds = require('./config');
 const connection = mysql.createConnection({
 	host:"localhost",
 	user : "root",
@@ -57,5 +59,14 @@ const connection = mysql.createConnection({
  		if(err) throw err;
  	});
  });
+ app.post("/contact",(res,req) => {
+	console.log('fghfgjklhgf')
+	 const mname = res.body.name;
+	 const Email = res.body.email;
+	 console.log(mname)
+	 console.log(Email)
+	 console.log(req.body.name,'dkdkddkdkdk');
+ });
+
 
 app.listen(4200,() => console.log("server is runnint on the port 4200") );

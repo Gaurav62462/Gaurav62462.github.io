@@ -19,6 +19,7 @@ const Header = (props) => {
                         <li><Button type="link" href='#resume'>Resume</Button></li>
                         <li><Button type="link" href='#about'>About</Button></li>
                         <li><Button type="link" href='#portfolio'>Works</Button></li>
+                        <li><Button type="link" href='#contactme'>Contact me</Button></li>
                         {/* {<li><Button type="link" href='#contact'>Testimonials</Button></li>} */}
                     </ul>
                     <div className='socialicon'>
@@ -26,6 +27,7 @@ const Header = (props) => {
                         <FontAwesomeIcon  url={'https://www.instagram.com/gauravkumar5467/'} icon={faInstagram} size="2x" spin />
                         <FontAwesomeIcon icon={faTwitter} size="2x" spin />
                         <FontAwesomeIcon icon={faGithub} size="2x" spin />
+                        
                     </div>
                 </nav>
             </header>

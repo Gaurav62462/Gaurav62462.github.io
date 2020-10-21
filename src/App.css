@@ -157,6 +157,20 @@ background-position: center;
 }
 .socialicon > svg{
   margin-right: 8px;
-  
-  
+}
+.nine-columns-main-col{
+  padding: 20em;
+
+}
+.mapstyle{
+      width: 100%;
+      height: 100%;
+}
+.contact{
+  background-image: url('./component/image/contact.jpg');
+  height: 58vh;
+  background-size: cover;
+}
+#contactme{
+
 }

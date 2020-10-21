@@ -6,8 +6,8 @@ const About = (props) => {
 
 	return (
 		<section id="about" className="aboutSection">
-			<div className='nine columns main-col'>
-				<h1 id='aboutSe'>About me</h1>
+			<div className='nine-columns-main-col'>
+				<h1 id='aboutSe'> Hi! This is Gaurav.</h1>
 				<p id='paragraph'>
 					{
 						resumeData.aboutme

@@ -23,7 +23,7 @@ let resumeData = {
     'className':'fa fa-twitter'
     }
     ],
-    'aboutme':'I am currently a Student and pursuing my masters in Global software Development from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
+    'aboutme':' I am currently working as a Front-End Developer at ZestGeek Solutions. I am a self taught Web Developer, currently diving deeper into Development. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.',
     'address':'Ward no.3, Khaira Road, Sardulgarh, '  + 'Dist: Mansa(151507).',
     'website':'https://Gaurav62462.github.io',
     'education':[
