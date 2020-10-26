@@ -2,20 +2,10 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
-import Login from './component/login';
-//import Dashboard from './component/Dashboard';
-//import Home from './component/home';
-//import Todoapp from './component/Todoapp';
-//import Hooks from './component/usestate';
-//import Register from './component/Register';
-//import Login from './component/login';
-//import CreatePost from './containers/CreatePost';
-//import PostList from './containers/PostList';
 import About from './component/About';
 import Contactme from './component/Contactme';
 import Header from './component/Header';
 import Resume from './component/Resume';
-//import Testimonials from './component/Testimonials';
 import Portfolio from './component/Portfolio';
 import resumeData  from './resumeData';
 import Slider from './component/slider';
@@ -23,6 +13,7 @@ import Slider from './component/slider';
 function App() {
   
   return (
+    <Router>
     
           <div className="App">
         <Header resumeData={resumeData}/>
@@ -33,7 +24,7 @@ function App() {
         <Contactme resumeData={resumeData}/>
 
       </div>
-        
+      </Router>
   );
 }
 

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import { Button, Form } from 'antd';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
@@ -11,10 +12,22 @@ const Contactme = (props) => {
     const [email, setEmail] = useState('');
     const onSubmit = (event) => {
         event.preventDefault();
-        alert(`your name is   ${name} ${message} ${email}`)
         setName('');
         setMessage('');
         setEmail('');
+
+        axios({
+            method: "POST", 
+            url:"http://localhost:4200/contact", 
+            data:  {name,message,email}
+          }).then((response)=>{
+              console.log(response,'response')
+            if (response.data.status === 'success') {
+              alert("Message Sent."); 
+            } else if(response.data.status === 'fail') {
+              alert("Message failed to send.")
+            }
+          })
 
     }
 
@@ -23,7 +36,7 @@ const Contactme = (props) => {
         <section className='contact'>
             <div className="container">
                 <div className="row">
-                    <div className="col-sm-6" id='contactme'>
+                    <div className="col-sm-6" id='contact'>
                         <h1>Contact with Me.</h1>
                         <Form action="/contact" id="contact-form" method="post" role="form">
                             <div className='form-group'>
